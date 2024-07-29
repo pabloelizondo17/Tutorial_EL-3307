@@ -51,7 +51,7 @@ bitstream: ${PROYECT}_pnr.json
 		
 #Generar vcd con icarus verilog
 test: ${SOURCES} ${TESTBENCH}
-	@iverilog -o ${PROYECT}_test.o -s ${TOP_TB} ${TESTBENCH} ${SOURCES}
+	@iverilog -o ${PROYECT}_test.o -s ${TOP_TB} -g2005-sv ${TESTBENCH} ${SOURCES}
 	@vvp ${PROYECT}_test.o 
 	
 #Visualizar los diagramas de tiempo con GTKWave
