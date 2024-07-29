@@ -1,0 +1,5 @@
+#ignorar estos documentos resultantes del build. No se deben subir al repo.
+*.json
+*.fs
+*.log
+*.o
