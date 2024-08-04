@@ -1,0 +1,23 @@
+IO_LOC  "clk" 52;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC  "count_o[0]" 10;
+IO_PORT "count_o[0]" DRIVE=8 IO_TYPE=LVCMOS18;
+
+IO_LOC  "count_o[1]" 11;
+IO_PORT "count_o[1]" DRIVE=8 IO_TYPE=LVCMOS18;
+
+IO_LOC  "count_o][2]" 13;
+IO_PORT "count_o][2]" DRIVE=8 IO_TYPE=LVCMOS18;
+
+IO_LOC  "count_o[3]" 14;
+IO_PORT "count_o[3]" DRIVE=8 IO_TYPE=LVCMOS18;
+
+IO_LOC  "count_o[4]" 15;
+IO_PORT "count_o[4]" DRIVE=8 IO_TYPE=LVCMOS18;
+
+IO_LOC  "count_o[5]" 16;
+IO_PORT "count_o[5]" DRIVE=8 IO_TYPE=LVCMOS18;
+
+IO_LOC  "rst" 4;
+IO_PORT "rst" IO_TYPE=LVCMOS18;
